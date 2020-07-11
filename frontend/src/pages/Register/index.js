@@ -34,7 +34,7 @@ export default function Register(){
            alert(`Seu ID de acesso: ${response.data.id}`)
            history.push('/')      
         }catch(err){
-            alert('Erro ao cadastrar. Tente novamente!')
+            alert('Preencha todos os campos!')
         }
 
 
